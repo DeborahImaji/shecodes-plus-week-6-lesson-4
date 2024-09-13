@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+    <title>🌨️ Weather App</title>
+</head>
+
+<body>
+
+    <div class="panel">
+
+        <header>
+            <form class="search-bar" id="search-form">
+                <input class="search-input" id="search-input" type="search" placeholder="Enter a city.." required />
+                <input class="search-button" type="submit" value="Search" />
+            </form>
+        </header>
+
+        <main>
+
+            <div class="current-weather">
+                <div class="current-degree">🌥️ <span><span id="current-temp">34</span><small>°C</small></span></div>
+                <div>
+                    <h1 id="city">Tokyo</h1>
+                    <p>
+                        <span id="day-time">Sunday 05:32</span>, few clouds <br />
+                        Humidity: <strong>63%</strong>, Wind: <strong>4.12km/h</strong>
+                    </p>
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="credits">
+            <p>
+                This project was coded by
+                <a href="https://www.linkedin.com/in/deborah-imaji-69a795317/" target="_blank">Deborah Imaji</a>
+                and is
+                <a href="https://github.com/" target="_blank"> on GitHub</a> and
+                <a href="https://app.netlify.com/" target="_blank">hosted on Netlify</a>
+            </p>
+        </footer>
+
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>

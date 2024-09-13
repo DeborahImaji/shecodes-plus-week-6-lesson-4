@@ -1,0 +1,110 @@
+body {
+    background: linear-gradient(to right, #b8deff, #e3ebfe);
+    font-family: "Epilogue", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.panel {
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    box-shadow: 8px 8px 8px #0000000e;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 60px;
+    max-width: 600px;
+    padding: 40px;
+}
+
+.search-bar {
+    margin-top: 20px;
+}
+
+.search-input {
+    background-color: #E2E4F1;
+    border: 1px solid #E2E4F1;
+    border-radius: 25px;
+    font-family: "Epilogue", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding: 20px 20px;
+    margin-right: 10px;
+    width: 70%;
+}
+
+.search-button {
+    background: linear-gradient(to right, #6f5ee0, #988bf8);
+    border: 0px solid #6f5ee0;
+    border-radius: 25px;
+    box-shadow: 8px 8px 20px #6f5ee075;
+    color: white;
+    font-family: "Epilogue", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding: 20px 0;
+    transition: all 250ms ease-in-out;
+    width: 20%;
+}
+
+.search-button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.current-weather {
+    background: linear-gradient(to right, #80b0fc, #82aff7, #3473d8);
+    border-radius: 30px;
+    box-shadow: 8px 8px 20px #629eff84;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 20px 20px;
+}
+
+.current-weather h1 {
+    background-image: linear-gradient(white, #9bbef8);
+    color: transparent;
+    background-clip: text;
+    font-size: 48px;
+    margin-top: 20px;
+}
+
+.current-weather p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.current-weather p strong {
+    color: #fff99e;
+}
+
+.current-degree {
+    font-size: 54px;
+    font-weight: 700;
+    margin-top: 45px;
+}
+
+.current-degree span {
+    background-image: linear-gradient(white, #9bbef8);
+    color: transparent;
+    background-clip: text;
+}
+
+.current-degree small {
+    background-image: linear-gradient(white, #9bbef8);
+    color: transparent;
+    background-clip: text;
+    font-size: 36px;
+    font-weight: 300;
+    position: relative;
+    top: -15px;
+}
+
+.credits {
+    color: #000000ac;
+    font-size: 14px;
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
